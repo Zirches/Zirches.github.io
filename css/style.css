@@ -1,0 +1,484 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	display: flex;
+	font-family: sans-serif;
+	justify-content: center;
+	background: url(../imagenes/fondo1.jpg);
+	background-size: 100%;
+}
+/*estilos contenedor principal*/
+.container-main{
+	width: 90%;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 15px;
+	display: flex;
+	content: center;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+.pokedex{
+	border: solid black 1px;
+	margin-top: 45px;
+	margin-left: 0px;
+	background: #F51414;
+	width: 375px;
+	height: 475px;
+	display: flex;
+	position: relative;
+	z-index: 1;	
+}
+.container-center{
+	border: solid black 1px;
+	background: #F51414;
+	width: 50px;
+	height: 407px;
+	margin-top: 113px;
+}
+/* Estilos div´s derecha */
+.container-left{
+	border: solid black 1px;
+	background: #F51414;
+	margin-top: 113px;
+	margin-left:750px;
+	width: 375px;
+	height: 407px;
+	position: absolute;
+	z-index: 1;
+}
+.container-black-left{
+	border: solid black 1px;
+	background-color: black;
+	border-radius: 20px;
+	height: 200px;
+	width: 280px;
+	margin-top: 39px;
+	margin-left: 65px;
+	position: absolute;
+	z-index: 2;
+}
+.container-altura{
+	border: solid black 1px;
+	background-color: black;
+	border-radius: 20px;
+	height: 40px;
+	width: 100px;
+	margin-top: 330px;
+	margin-left: 65px;
+	position: absolute;
+	z-index: 3;
+}
+.container-peso{
+	border: solid black 1px;
+	background-color: black;
+	border-radius: 20px;
+	height: 40px;
+	width: 100px;
+	margin-top: 330px;
+	margin-left: 225px;
+	position: absolute;
+	z-index: 3;
+}
+
+
+/* Terminan Estilos div´s derecha */
+/* inicia divs dentro del contenedor principal */
+/*estilos div izquierda y derecha*/
+	
+/*estilos div arriba a la izquierda*/
+.container-top{
+	border: solid 1px;
+	border-top-color: red;
+  border-right-color: blue;
+  border-bottom-color: none;
+  border-left-color: blue;
+	height: 50px;
+	display: flex;
+	padding: 8px;
+	width: 375px;
+}
+
+
+.leftContainerTopBlue{
+  background: radial-gradient(farthest-corner at 10px 10px, white, #369CD4, #369CD4);
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.5);
+  height: 30px;
+  width: 30px;
+}
+
+.leftContainerTopSmallButton{
+  display: flex;
+  margin: 0 25px;
+}
+
+.leftContainerTopRed,
+.leftContainerTopYellow,
+.leftContainerTopGreen {
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 10px;
+  margin-right: 5px;
+  width: 10px;
+}
+.leftContainerTopRed{
+	background: red;
+}
+.leftContainerTopYellow{
+	background: yellow;
+}
+.leftContainerTopGreen{
+	background: green;
+}
+/*terminan estilos dov izquierda arriba*/
+
+/* Estilos div´s  fondo negro/azul izquierdo */
+.container-fondo{
+	border: solid 1px cadetblue;
+	background: #DCDCDC;
+	width: 300px;
+	height: 250px;
+	margin-top: 80px;
+	margin-left: 40px;
+	border-radius: 15px;
+	position: absolute;
+	z-index: 2;
+}
+.container-circulos{
+	width: 70px;
+	height: 20px;
+	margin-top: 82px;
+	margin-left: 150px;
+	position: absolute;
+	z-index: 2;
+}
+.circulos{
+	border: solid black 1px;
+	width: 10px;
+	height: 10px;
+	display: inline-flex;
+	border-radius: 20px;
+	background-color: red;
+
+}
+.container-fondo-dos{
+	border: solid 1px black;
+	height: 200px;
+	width: 250px;
+	background: black;
+	position: absolute;
+	border-radius: 15px;
+	z-index: 3;
+	margin-top: 105px;
+	margin-left: 65px;
+}
+.container-boton{
+	border: solid 1px black;
+	height: 40px;
+	width: 40px;
+	background: black;
+	position: absolute;
+	border-radius: 100px;
+	z-index: 3;
+	margin-top: 355px;
+	margin-left: 25px;
+	background: radial-gradient(farthest-corner at 10px 10px, white, black, black);
+}
+/* Terminan estilos div´s  fondo negro/azul izquierdo */
+.img-pokebola{
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+.button-delet{
+	position: absolute;
+	border: solid black 1px;
+	z-index: 2;
+	width: 60px;
+	height: 10px;
+	background-color: red;
+	margin-top: 340px;
+	margin-left: 190px;
+	border-radius: 20px;
+}
+.button-select{
+	position: absolute;
+	z-index: 2;
+	width: 60px;
+	height: 10px;
+	background-color: green;
+	margin-top: 340px;
+	margin-left: 100px;
+	border-radius: 20px;
+}
+.select{
+	position: absolute;
+	z-index: 3;
+	width: 60px;
+	height: 10px;
+	margin-top: 350px;
+	margin-left: 100px;
+}
+.delet{
+	position: absolute;
+	z-index: 3;
+	width: 60px;
+	height: 10px;
+	margin-top: 350px;
+	margin-left: 190px;
+}
+.container-input{
+	position: absolute;
+	z-index: 2;
+	width: 200px;
+	height: 40px;
+	margin-top: 370px;
+	margin-left: 70px;
+	display: flex;
+	justify-content: center;
+}
+::placeholder { color: black; }
+.input{
+	background-color: #228B22;
+}
+.button{
+	position: absolute;
+	z-index: 2;
+	margin-top: 425px;
+	margin-left: 250px;
+	display: flex;
+	justify-content: center;
+}
+.directional-pad{
+	border: solid 1px green;
+	background-color: yellowgreen;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	z-index: 1;
+	margin-top: 150px;
+}
+.prueba{
+	background-color: #F51414;
+	position: absolute;
+	width: 100px;
+	height: 75px;
+	z-index: 3;
+	margin-top: 350px;
+	margin-left: 275px;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.uno{
+	border: solid 1 px black;
+	
+	width: 30px;
+	height:27px;
+}
+.dos{
+	border: solid 1 px black;
+	background-color: black;
+	width: 30px;
+	height:27px;
+}
+.triangulo-dos{
+ 	width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid grey;
+  margin-left: 10px;
+}
+.triangulo-seis{
+width: 0;
+height: 0;
+border-top: 5px solid transparent;
+border-bottom: 5px solid transparent;
+border-left: 10px solid grey;
+margin-top: 7px;
+margin-left: 17px;
+}
+.triangulo-ocho{
+	width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid gray;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.trinagulo-cuatro{
+	width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 10px solid gray;
+  border-bottom: 5px solid transparent;
+  margin-top: 7px;
+}
+.tres{
+	border: solid 1 px black;
+	
+	width: 30px;
+	height:27px;
+}
+.cuatro{
+	border: solid 1 px black;
+	background-color: black;
+	width: 30px;
+	height:27px;
+}
+.cinco{
+	border: solid 1 px black;
+	background-color: black;
+	width: 30px;
+	height:27px;
+}
+.mini-circulo{
+	border: solid 1px dimgray;
+	border-radius: 100px;
+	width: 20px;
+	height: 20px;
+	margin-left: 3px;
+}
+.seis{
+	border: solid 1 px black;
+	background-color: black;
+	width: 30px;
+	height:27px;
+}
+.siete{
+	border: solid 1 px black;
+
+	width: 30px;
+	height:27px;
+}
+.ocho{
+	border: solid 1 px black;
+	background-color: black;
+	width: 30px;
+	height:27px;
+}
+.nueve{
+	border: solid 1 px black;
+	
+	width: 30px;
+	height:27px;
+}
+.container-left-cuadros{
+	width: 170px;
+	height: 50px;
+	position: absolute;
+	z-index: 3;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 250px;
+	margin-left: -75px;
+}
+.c1{
+	border: solid 1px black;
+	background-color: #1E90FF;
+	width: 30px;
+	height: 30px;
+}
+.c2{
+	border: solid 1px black;
+	background-color: #1E90FF;
+	width: 30px;
+	height: 30px;
+}
+.c3{
+	border: solid 1px black;
+	background-color: #1E90FF;
+	width: 30px;
+	height: 30px;
+}
+.c4{
+	border: solid 1px black;
+	background-color: #1E90FF;
+	width: 30px;
+	height: 30px;;	
+}
+.c5{
+	border: solid 1px black;
+	background-color: #1E90FF;
+	width: 30px;
+	height: 30px;	
+}
+.c6{
+	border: solid 1px black;
+	background-color: #1E90FF;
+	width: 30px;
+	height: 30px;	
+}
+.c7{
+	border: solid 1px black;
+	background-color: #1E90FF;
+	width: 30px;
+	height: 30px;;	
+}
+.c8{
+	border: solid 1px black;
+	background-color: #1E90FF;
+	width: 30px;
+	height: 30px;	
+}
+.c9{
+	border: solid 1px black;
+	background-color: #1E90FF;
+	width: 30px;
+	height: 30px;	
+}
+.c10{
+	border: solid 1px black;
+	background-color: #1E90FF;
+	width: 30px;
+	height: 30px;
+}
+.text{
+	color: white;
+	position: absolute;
+	z-index: 3;
+	margin-top: 15px;
+}
+.id{
+	color: white;
+}
+.datos{
+	color: white;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 5px;
+	position: absolute;
+	z-index: 2;
+}
+.estad{
+	margin-left: 15px;
+	position: absolute;
+	z-index: 2;
+	width: 100px;
+	height: 135px;
+}
+.moves{
+	width: 130px;
+	height: 150px;
+	margin-top: -20px;
+	margin-left: 135px;
+	position: absolute;
+	z-index: 4;
+	
+}
+.todos{	
+	width: 130px;
+	height: 125px;
+	position: absolute;
+	z-index: 4;
+	overflow-y: scroll;
+}
